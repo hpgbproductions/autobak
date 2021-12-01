@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="1ce9df2f-6530-49ff-8421-c05e7364851e">
+  <Mod name="Autosave and Backup" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-12-01T06:54:36.6931659Z" apiVersion="1.0.0.0" description="">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="AutoBackup" path="Assets/_ModAssets_/AutoBackup.prefab" />
+    </GameObjects>
+    <Assets />
+    <MaterialShaderMap />
+    <Assemblies>
+      <Assembly name="AutosaveandBackup-Assembly-CSharp.dll" path="Assets/_ModAssets_/AutosaveandBackup-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts />
+        <DesignerPlugins>
+          <DesignerPlugin objectName="AutoBackup" />
+        </DesignerPlugins>
+        <MapPlugins />
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
