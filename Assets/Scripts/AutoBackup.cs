@@ -133,6 +133,10 @@ public class AutoBackup : MonoBehaviour
                 File.WriteAllText(Path.Combine(ModDataPath, backupName), editorAircraftData, System.Text.Encoding.UTF8);
                 Debug.Log($"Backup written: {backupName}");
             }
+            else
+            {
+                Debug.Log("No backup written: Current aircraft data is the same as the previous data in the session.");
+            }
         }
         catch (IOException ex)
         {
